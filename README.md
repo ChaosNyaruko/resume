@@ -1,3 +1,3 @@
-# christopher-m-finazzo-resume.tex
+# Christopher M. Finazzo Resume
 
-The `.tex` source for my resume
+The `.tex` source for my resume.
