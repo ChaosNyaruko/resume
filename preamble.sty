@@ -5,14 +5,20 @@
 \usepackage [utf8]{inputenc}
 \usepackage[margin=0.75in]{geometry}
 \usepackage{mathptmx}
-\usepackage{fancyhdr}
 \usepackage{ulem}
+\usepackage{enumitem}
+\newcommand{\companydetails}[1]{%
+  \par\addvspace{\bigskipamount}
+  \noindent
+  \begin{tabular}[t]{ @{} l @{} }
+    \strut #1
+  \end{tabular}}
+\newcommand{\companyduration}[1]{%
+  \hfill
+  \strut #1
+}
 \pagenumbering{gobble}
 \def\myauthor{Christopher M. Finazzo}
-\def\mycopyright{\myauthor}
+\def\mycopyright{2017}
 \def\mykeywords{}
-\def\myemail{chris@chrisfinazzo.com}
-\def\myweb{https://chrisfinazzo.com}
-\def\myphone{973.906.0496}
-
 \endinput
