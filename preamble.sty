@@ -11,11 +11,13 @@
 \usepackage[margin=0.75in]{geometry}
 \usepackage{mathptmx}
 \usepackage{ulem}
+\usepackage[none]{hyphenat} % This style needs to be in the repo, It's not in BasicTex
 \usepackage{fancyhdr}
 \fancyhf{}
 \fancyhead[L]{973.906.0496}
 \fancyhead[C]{\textbf{Christopher M. Finazzo}}
 \fancyhead[R]{chris@chrisfinazzo.com}
+\setlength{\headsep}{0.3in}
 \thispagestyle{plain}
 \pagestyle{fancy}
 \usepackage{enumitem} % This style needs to be in the repo, It's not in BasicTex
@@ -30,6 +32,4 @@
   \strut #1
 }
 \pagenumbering{gobble}
-\def\myauthor{Christopher M. Finazzo}
-\def\mycopyright{2017}
 \endinput
