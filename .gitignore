@@ -4,3 +4,5 @@
 *.pdf
 enumitem.sty
 hyphenat.sty
+vc-git.awk
+vc
