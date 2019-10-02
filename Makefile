@@ -1,4 +1,2 @@
-.SUFFIXES: .tex .pdf
-
-.tex.pdf:
+build: christopher-m-finazzo-resume.tex
 	pdflatex $<
