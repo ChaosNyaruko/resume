@@ -11,17 +11,21 @@
 \usepackage[margin=1.905cm]{geometry}
 \usepackage{mathptmx}
 \usepackage{ulem}
-\usepackage[none]{hyphenat} % This style needs to be in the repo, It's not in BasicTex
+\usepackage[none]{hyphenat}
 \usepackage{fancyhdr}
 \fancyhf{}
-\fancyhead[L]{973.906.0496}
-\fancyhead[C]{\textbf{Christopher M. Finazzo}}
-\fancyhead[R]{chris@chrisfinazzo.com}
+\fancyhead[L]{\myphone}
+\fancyhead[C]{\textbf{\myname}}
+\fancyhead[R]{\myemail}
 %\cfoot{\textit{\VCDateISO - \GITAbrHash}}
 \setlength{\headsep}{0.762cm}
 \thispagestyle{plain}
 \pagestyle{fancy}
-\usepackage{enumitem} % This style needs to be in the repo, It's not in BasicTex
+\usepackage{enumitem}
+\pagenumbering{gobble}
+\newcommand{\myname}{Christopher M. Finazzo}
+\newcommand{\myemail}{chris@chrisfinazzo.com}
+\newcommand{\myphone}{973.906.0496}
 \newcommand{\companydetails}[1]{%
   \par\addvspace{\bigskipamount}
   \noindent
@@ -32,7 +36,4 @@
   \hfill
   \strut #1
 }
-\pagenumbering{gobble}
-\def\myauthor{Christopher M. Finazzo}
-\def\mycopyright{2021}
 \endinput
