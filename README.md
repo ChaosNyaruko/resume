@@ -1,3 +1,3 @@
 # Christopher M. Finazzo Resume
 
-The `.tex` source for my resume.
+The TeX source for my resume.
